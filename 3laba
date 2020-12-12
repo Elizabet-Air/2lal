@@ -14,10 +14,10 @@
 int main(int argc, char const *argv[])
 {
 
-	DIR *dir; // переменная типа DIR необходима для работы с директориями (по смыслу она похожа на тип 		     FILE). 
+	DIR *dir; 
 	char typeFile;
 	char path[255], date[100], accessUser[4], accessGroup[4], accessOther[4];
-	long UID, GID, size;  // идентификатор пльзователя, идентификатор группы, размер
+	long UID, GID, size; 
 
 	struct dirent *entry;
 	struct passwd *pwd;
